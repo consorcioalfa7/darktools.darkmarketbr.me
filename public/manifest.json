@@ -1,0 +1,45 @@
+{
+  "name": "DarkToolsLabs",
+  "short_name": "DarkTools",
+  "description": "Suite Premium de Ferramentas de Validação e Análise",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#dc2626",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/darktools-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/darktools-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "productivity", "business"],
+  "screenshots": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Database",
+      "short_name": "DB",
+      "description": "Gestão de Sites e BINs",
+      "url": "/database",
+      "icons": [{ "src": "/darktools-logo.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Dark Cards",
+      "short_name": "Cards",
+      "description": "Validateur Premium",
+      "url": "/dark-cards-validateur",
+      "icons": [{ "src": "/darktools-logo.png", "sizes": "96x96" }]
+    }
+  ]
+}
